@@ -1,2 +1,2 @@
 # BEM
-Added a new line
+Delete extra lines
