@@ -3,7 +3,6 @@
     margin: 99px auto 0;
     padding: 0 15px;
 }
-
 .tabs__nav-button {
     position: relative;
     font-family: 'Open Sans', sans-serif;
@@ -19,16 +18,13 @@
     margin: 0;
     text-align: center;
 }
-
 .tabs__nav-button:first-child {
     border: 1px solid #C6CBCD;
     border-radius: 5px 5px 0px 0px;
 }
-
 .tabs__nav-button:hover {
     cursor: pointer;
 }
-
 .tabs__nav-button:first-child:after {
     position: absolute;
     left: 0;
@@ -40,17 +36,14 @@
     height: 10px;
     background-color: white;
 }
-
 .tabs-block {
     border: 1px solid #C6CBCD;
     display: flex;
 }
-
 .tabs-block__content {
     width: 570px;
     margin-left: 100px;
 }
-
 .tabs-block__content-title {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
@@ -58,7 +51,6 @@
     line-height: 41px;
     margin: 41.5px 0 68.5px;
 }
-
 .tabs-block__content-text {
     width: 570px;
     text-align: left;
@@ -66,15 +58,12 @@
     font-size: 18px;
     line-height: 21px;
 }
-
 .tabs-block__content-text p {
     white-space: pre-line;
 }
-
 .tabs-block__content-text p:first-child {
     margin-bottom: 21px;
 }
-
 .tabs-block__content-button {
     margin: 27px 0 54px;
     font-family: 'Open Sans', sans-serif;
@@ -88,17 +77,14 @@
     background-color: #EC7979;
     text-transform: capitalize;
 }
-
 .tabs-block__content-button:hover {
     background: #AB4949;
     cursor: pointer;
 }
-
 .tabs-block__content-button:active {
     background: #EC7979;
     box-shadow: inset 0px 0px 10px #AB4949;
 }
-
 .tabs-block__image {
     object-fit: cover;
     width: 470px;
