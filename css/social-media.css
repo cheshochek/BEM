@@ -1,11 +1,14 @@
-
-.social-media {
-    max-width:1170px;
+.social-media{
+    background-color: #F8EFEF;
+}
+.social-media__wrapper {
+    max-width: 1170px;
     padding: 0 15px;
     margin: auto;
     display: flex;
     justify-content: space-between;
 }
+
 .social-media__content {
     width: calc(470 / 1140 * 100%);
 }
@@ -19,6 +22,7 @@
     text-transform: capitalize;
     color: #333333;
 }
+
 .social-media__content-text {
     margin: 18px 0;
     font-weight: 400;
@@ -26,37 +30,49 @@
     line-height: calc(21 / 18 * 100%);
     color: #86878B;
 }
-.social-media__icons{
-    width:calc(670 / 1140 * 100%);
-    display:flex;
-    justify-content:space-between;
+
+.social-media__icons {
+    display: flex;
+    justify-content: space-between;
+    flex: 0 0 calc(670 / 1140 * 100%);
+    margin: 35px 0 33px;
 }
-.icon-container{
-flex:0 0 calc(70 / 167 * 100%);
+.icon-container {
+    width: calc(70 / 670 * 100%);
+    height: auto;
+    position: relative;
 }
-.icon-container__button{
-        background-size: cover;
-        display: flex;
-        flex: 0 0 calc(70 / 670 * 100%);
-    }
-.icon-container__button-facebook{
-    background-image: url('img/icon-facebook.png');
+
+.icon-container img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    object-position: center;
+    position: absolute;
+    top:0;
+    left:0;
 }
-.icon-container__button-twitter {
-    background-image: url('img/icon-twitter.png');
+a:hover:nth-child(1) {
+    background-color: #4267b2;
 }
-.icon-container__button-linkedin {
-    background-image: url('img/icon-linkedin.png');
+a:hover:nth-child(2) {
+    background-color: #1da1f2;
 }
-.icon-container__button-pinterest {
-    background-image: url('img/icon-pinterest.png');
+a:hover:nth-child(3) {
+    background-color: #007b21;
 }
-.icon-container__button-instagram {
-    background-image: url('img/icon-instagram.png');
+a:hover:nth-child(4) {
+    background-color: #bd081c;
 }
-.icon-container__button-github {
-    background-image: url('img/icon-github.png');
+a:hover:nth-child(5) {
+    background-color: #fcaf45;
 }
-.icon-container__button-rss {
-    background-image: url('img/icon-rss.png');
+a:hover:nth-child(6) {
+    background-color: #24292f;
+}
+a:hover:nth-child(7) {
+    background-color: #ee802f;
+}
+a:not(:hover){
+    opacity: 0.5;
 }
