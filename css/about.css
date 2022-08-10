@@ -4,21 +4,25 @@
     text-align: center;
     padding: 0 15px;
 }
+
 .about__header {
     margin-bottom: 71px;
 }
+
 .about__header-title {
     font-size: 36px;
     line-height: 42px;
     text-transform: uppercase;
     padding: 54px 0 53px;
 }
+
 .about__header-subtitle {
     margin-top: 40px;
     font-size: 18px;
     line-height: 21px;
     color: #86878B;
 }
+
 .about__header-hr {
     border: none;
     color: #EC7979;
@@ -27,20 +31,24 @@
     width: 170px;
     margin: 0 auto;
 }
+
 .about__items {
     display: flex;
     justify-content: space-between;
 }
+
 .about-item {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 370px;
 }
+
 .about-item__icon {
     width: 170px;
     height: 170px;
 }
+
 .about-item__title {
     font-family: 'Open Sans', sans-serif;
     font-size: 24px;
@@ -53,6 +61,7 @@
     line-height: 21px;
     white-space: pre-line;
 }
+
 .about-item__text::first-line {
     line-height: 0;
 }
