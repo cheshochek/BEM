@@ -2,6 +2,7 @@
 @import url('about.css');
 @import url('tabs.css');
 @import url('social-media.css');
+
 *,
 *::before,
 *::after {
@@ -10,17 +11,21 @@
         padding: 0;
         border: 0;
 }
+
 a {
         text-decoration: none;
 }
+
 ul,
 ol,
 li {
         list-style: none;
 }
+
 img {
         vertical-align: top;
 }
+
 h1,
 h2,
 h3,
@@ -30,9 +35,12 @@ h6 {
         font-weight: inherit;
         font-size: inherit;
 }
+
 body {
         font-family: 'Raleway', sans-serif;
+        height:100%;
 }
-.wrapper {
-        height: 100%;
+.wrapper{
+        min-height: 100%;
+        overflow: hidden;
 }
