@@ -40,17 +40,12 @@
 .icon-container {
     width: calc(70 / 670 * 100%);
     height: auto;
-    position: relative;
 }
 
 .icon-container img {
     object-fit: cover;
     height: 100%;
     width: 100%;
-    object-position: center;
-    position: absolute;
-    top:0;
-    left:0;
 }
 a:hover:nth-child(1) {
     background-color: #4267b2;
