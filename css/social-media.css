@@ -1,7 +1,6 @@
 .social-media {
     background-color: #F8EFEF;
 }
-
 .social-media__wrapper {
     max-width: 1200px;
     padding: 0 15px;
@@ -9,11 +8,9 @@
     display: flex;
     justify-content: space-between;
 }
-
 .social-media__content {
     width: calc(470 / 1170 * 100%);
 }
-
 .social-media__content-title {
     margin: 14px 0 23px;
     font-family: 'Open Sans';
@@ -23,7 +20,6 @@
     text-transform: capitalize;
     color: #333333;
 }
-
 .social-media__content-text {
     margin-bottom: 18px;
     font-weight: 400;
@@ -31,87 +27,72 @@
     line-height: 21px;
     color: #86878B;
 }
-
 .social-media__icons {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex: 0 0 calc(670 / 1170 * 100%);
 }
-
 .icon-container {
     width: calc(70 / 670 * 100%);
 }
-
 .icon-container img {
     object-fit: cover;
     height: 100%;
     width: 100%;
 }
-
 a img:nth-child(2) {
     display: none;
 }
-
 a:hover img:nth-child(1) {
     display: none;
 }
-
 a:hover img:nth-child(2) {
     display: block;
 }
-
 .social-media__icons:hover>a:not(:hover) {
     opacity: 0.5;
-    transition:0.5s all ease 0s;
+    transition: 0.5s all ease 0s;
 }
-
 @media (max-width: 1024px) {
     .social-media__wrapper {
         max-width: 1022px;
     }
-
     .social-media__content-title {
         margin: 12px 0 23px;
         font-size: 18px;
         line-height: 25px;
     }
-
     .social-media__content-text {
         margin-bottom: 13px;
         font-size: 14px;
         line-height: 16px;
         color: #86878B;
     }
-        .icon-container {
-            width: calc(64 / 570 * 100%);
-        }
+    .icon-container {
+        width: calc(64 / 570 * 100%);
+    }
 }
-
 @media (max-width: 400px) {
     .social-media__wrapper {
         max-width: 316px;
         flex-direction: column;
         text-align: center;
     }
-
     .social-media__content-title {
         margin: 41px 0 23px;
     }
-
     .social-media__content-text {
         margin-bottom: 32px;
     }
-
     .social-media__content {
         width: 100%;
     }
-
     .social-media__icons {
         flex: 0 0 100%;
         margin-bottom: 44px;
     }
-        .icon-container {
-            width: 26px;
-        }
+    .icon-container {
+        width: 26px;
+    }
 }
