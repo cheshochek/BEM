@@ -31,7 +31,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex: 0 0 calc(670 / 1170 * 100%);
+    width: calc(670 / 1170 * 100%);
 }
 .icon-container {
     width: calc(70 / 670 * 100%);
@@ -89,7 +89,7 @@ a:hover img:nth-child(2) {
         width: 100%;
     }
     .social-media__icons {
-        flex: 0 0 100%;
+        width: 100%;
         margin-bottom: 44px;
     }
     .icon-container {
