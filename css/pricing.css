@@ -10,6 +10,8 @@
 }
 .items {
     display: flex;
+}
+.items-pricing {
     margin: 79px -15px 0;
 }
 .item {
@@ -66,7 +68,7 @@
     .pricing__container {
         max-width: 992px;
     }
-    .items {
+    .items-pricing {
         margin: 50px -10px 0;
     }
     .item {
@@ -92,7 +94,7 @@
     .pricing__container {
         max-width: 680px;
     }
-    .items {
+    .items-pricing {
         margin: 50px -4px 0;
     }
     .item {
@@ -104,7 +106,7 @@
         max-width: 400px;
         padding: 0 0 26px;
     }
-    .items {
+    .items-pricing {
         margin: 24px 0 0 0;
         flex-direction: column;
     }
