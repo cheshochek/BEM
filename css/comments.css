@@ -5,6 +5,10 @@
     text-align: center;
 }
 
+input[type="radio"] {
+    display: none;
+}
+
 .items-comments {
     margin: 83px -15px 0;
 }
@@ -67,7 +71,6 @@
     line-height: 21px;
     color: #000000;
 }
-
 @media(max-width:1024px) {
     .comments {
         max-width: 1012px;
@@ -113,7 +116,7 @@
 
 @media(max-width:768px) {
     .comments {
-        max-width: 788px;
+        max-width: 50%;
     }
 
     .items-comments {
@@ -129,7 +132,50 @@
         margin: 0 0 60px 0;
     }
 
-    .item__commentator{
+    .item__commentator {
         margin: 16px 0 0 0;
+    }
+}
+
+@media(max-width:400px) {
+    .comments {
+        max-width: 420px;
+    }
+
+    .comments .items {
+        display: block;
+    }
+
+    .controls {
+        display: block;
+    }
+
+    .comments .item {
+        display: none;
+    }
+
+    #controls-btn-1:checked~#content-1,
+    #controls-btn-2:checked~#content-2,
+    #controls-btn-3:checked~#content-3 {
+        display: block;
+    }
+
+    .controls input[type="radio"] {
+        height: 9px;
+        width: 9px;
+        display: inline-block;
+        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+        border-radius: 50%;
+        cursor: pointer;
+        border-color: #86878B;
+        background-color: transparent;
+    }
+
+    .comments input[type="radio"]:not(:last-of-type) {
+        margin: 0 60px 0 0;
+    }
+
+    .comments>input[type="radio"]:checked {
+        background-color: #86878B;
     }
 }
