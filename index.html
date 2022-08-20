@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,36 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Axit</title>
 </head>
+
 <body>
     <div class="wrapper">
+        <header class="header-block">
+            <div class="header__container">
+                <a href="" class="header__logo">
+                    <img src="img/logo.png">
+                </a>
+                <nav class="menu header__menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="" class="menu__link">Features</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="" class="menu__link">About</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="" class="menu__link">Pricing</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="" class="menu__link">Reviews</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="" class="menu__link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section class="main-block"></section>
         <section class="social-media">
             <div class="social-media__wrapper">
                 <div class="social-media__content">
@@ -218,7 +247,10 @@
                 </div>
             </div>
             <div class="items items-comments">
-                <div class="item">
+                <input type="radio" name="comments-btn" id="controls-btn-1" value="" checked>
+                <input type="radio" name="comments-btn" id="controls-btn-2" value="">
+                <input type="radio" name="comments-btn" id="controls-btn-3" value="">
+                <div class="item" id="content-1">
                     <div class="item__comment">
                         Lorem ipsum dolor sit amet,
                         consectetur adipisicing elit. Doloribus
@@ -237,7 +269,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="item">
+                <div class="item" id="content-2">
                     <div class="item__comment">
                         Lorem ipsum dolor sit amet,
                         consectetur adipisicing elit. Doloribus
@@ -256,7 +288,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="item">
+                <div class="item" id="content-3">
                     <div class="item__comment">
                         Lorem ipsum dolor sit amet,
                         consectetur adipisicing elit. Doloribus
@@ -275,8 +307,14 @@
                         </div>
                     </div>
                 </div>
+                <div class="controls">
+                    <label for="controls-btn-1"></label>
+                    <label for="controls-btn-2"></label>
+                    <label for="controls-btn-3"></label>
+                </div>
             </div>
         </section>
     </div>
 </body>
+
 </html>
