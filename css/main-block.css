@@ -1,0 +1,67 @@
+.main-block {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/banner.png);
+    background-position: center;
+    background-size: cover;
+    padding: 306px 0 185px;
+}
+
+.main-block__container {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.main-block__body {
+    flex: 0 1 670px;
+}
+
+.main-block__title {
+    width: 170px;
+    height: 55px;
+    margin: 0 0 73px;
+}
+
+.main-block__title img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.main-block__subtitle {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.main-block__subtitle:after {
+    content: '';
+    display: block;
+    height: 1px;
+    background: #fff;
+    width: 170px;
+    margin: 54px 0 41px;
+}
+
+.main-block__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    max-width: 270px;
+    margin:0 0 42px 0;
+}
+
+.main-block__button {
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+    padding: 17px 89px 16px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background-color: transparent;
+}
