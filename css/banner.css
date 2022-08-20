@@ -26,7 +26,6 @@
 }
 
 .banner__button {
-    box-sizing: border-box;
     font-family: 'Open Sans';
     font-weight: 600;
     font-size: 18px;

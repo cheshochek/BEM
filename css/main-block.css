@@ -4,7 +4,6 @@
     background-size: cover;
     padding: 306px 0 185px;
 }
-
 .main-block__container {
     max-width: 1200px;
     padding: 0 15px;
@@ -66,11 +65,6 @@
     color: #FFFFFF;
     background-color: transparent;
 }
-
-.main-block__button:hover {
-    cursor: pointer;
-}
-
 .main-block__form {
     flex: 0 0 470px;
     background: #FFFFFF;
@@ -109,11 +103,8 @@
     width: 100%;
     padding: 0 0 15px 0;
 }
-.form-item:last-of-type {
-    margin: 0 0 78px 0;
-}
-
 .form__button {
+    margin:78px 0 0 0;
     padding: 20px 0;
     width: 100%;
     font-family: 'Open Sans';
@@ -124,7 +115,6 @@
     background-color: #EC7979;
     border-radius: 0 0 10px 10px;
 }
-
-.form__button:hover {
-    cursor: pointer;
+button:hover{
+    cursor:pointer;
 }
