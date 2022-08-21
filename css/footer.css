@@ -14,6 +14,31 @@
 .icons__list {
     display: flex;
 }
+.icons__list:hover>li:not(:hover) {
+    opacity: 0.5;
+    transition: 0.5s all ease 0s;
+}
+.icon-fac:hover::before{
+    color:#4267b2;
+}
+.icon-tw:hover::before{
+    color: #1da1f2;
+}
+.icon-link:hover::before{
+    color: #007b21;
+}
+.icon-pint:hover::before{
+    color: #bd081c;
+}
+.icon-insta:hover::before{
+    color: #fcaf45;
+}
+.icon-git:hover::before{
+    color: #24292f;
+}
+.icon-rss:hover::before{
+    color: #ee802f;
+}
 .icons-item:not(:last-child) {
     margin: 0 33px 0 0;
 }
