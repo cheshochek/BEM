@@ -3,7 +3,6 @@
     background-color: #000;
     position: absolute;
 }
-
 .header__container {
     max-width: 1225px;
     margin: 0 170px 0 115px;
@@ -11,24 +10,19 @@
     align-items: center;
     min-height: 76px;
 }
-
 .header__menu {
     flex: 1 1 auto;
 }
-
 .menu {
     display: flex;
     justify-content: end;
 }
-
 .menu__list {
     display: flex;
 }
-
 .menu__item:not(:last-child) {
     margin: 0 54px 0 0;
 }
-
 .menu__link {
     font-family: 'Open Sans';
     font-weight: 600;
