@@ -17,6 +17,10 @@
     display: flex;
     justify-content: end;
 }
+.header__logo{
+    width:87px;
+    height:31px;
+}
 .menu__list {
     display: flex;
 }

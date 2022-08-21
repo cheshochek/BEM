@@ -79,18 +79,18 @@
 .form__title span {
     color: #EC7979;
 }
-.form-item {
+.form-item input {
     font-family: 'Open Sans';
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
     color: #BDBDBD;
     border-bottom: 1px solid #BDBDBD;
-    margin-bottom: 36px;
-}
-.form-item input {
     width: 100%;
     padding: 0 0 15px 0;
+}
+.main-block .form-item input {
+    margin-bottom: 36px;
 }
 .form__button {
     margin: 78px 0 0 0;

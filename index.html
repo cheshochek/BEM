@@ -13,24 +13,24 @@
         <header class="header-block">
             <div class="header__container">
                 <a href="" class="header__logo">
-                    <img src="img/logo.png">
+                    <img src="img/logo.png" alt="">
                 </a>
                 <nav class="menu header__menu">
                     <ul class="menu__list">
                         <li class="menu__item">
-                            <a href="" class="menu__link">Features</a>
+                            <a href="#Features" class="menu__link">Features</a>
                         </li>
                         <li class="menu__item">
-                            <a href="" class="menu__link">About</a>
+                            <a href="#About" class="menu__link">About</a>
                         </li>
                         <li class="menu__item">
-                            <a href="" class="menu__link">Pricing</a>
+                            <a href="#Pricing" class="menu__link">Pricing</a>
                         </li>
                         <li class="menu__item">
-                            <a href="" class="menu__link">Reviews</a>
+                            <a href="#Reviews" class="menu__link">Reviews</a>
                         </li>
                         <li class="menu__item">
-                            <a href="" class="menu__link">Contact</a>
+                            <a href="#Contact" class="menu__link">Contact</a>
                         </li>
                     </ul>
                 </nav>
@@ -104,7 +104,7 @@
                 </div>
             </div>
         </section>
-        <section class="tabs">
+        <section id="Features" class="tabs">
             <input type="radio" name="tabs-btn" id="tabs-btn-1" value="" checked>
             <label for="tabs-btn-1">tab 1</label>
             <input type="radio" name="tabs-btn" id="tabs-btn-2" value="">
@@ -163,7 +163,7 @@
                 <img class="tabs-block__image" src="img/Chicago.jpg" alt="Image">
             </div>
         </section>
-        <section class="about">
+        <section id="About" class="about">
             <div class="header">
                 <div class="header-title">Why this is awesome
                 </div>
@@ -211,7 +211,7 @@
                 </div>
             </div>
         </section>
-        <section class="pricing">
+        <section id="Pricing" class="pricing">
             <div class="pricing__container">
                 <div class="header">
                     <div class="header-title">Pricing options
@@ -267,7 +267,7 @@
                 </div>
             </div>
         </section>
-        <section class="comments">
+        <section id="Reviews" class="comments">
             <div class="header">
                 <div class="header-title">what our customers are saying
                 </div>
@@ -356,7 +356,7 @@
             </div>
             <button class="banner__button">Download</button>
         </section>
-        <section class="contact">
+        <section id="Contact" class="contact">
             <div class="contact__container">
                 <div class="header">
                     <div class="header-title">contact us
@@ -382,10 +382,7 @@
                         </div>
                     </div>
                     <div class="form__right">
-                        <div class="form-item">
-                            <label for="user-message"></label>
-                            <input type="text" placeholder="Message" id="user-message">
-                        </div>
+                        <textarea rows="11" placeholder="Message"></textarea>
                     </div>
                     <button type="submit" class="contact__button">Send Message</button>
                 </div>

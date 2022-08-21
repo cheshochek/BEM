@@ -17,21 +17,17 @@
         padding: 0;
         border: 0;
 }
-
 a {
         text-decoration: none;
 }
-
 ul,
 ol,
 li {
         list-style: none;
 }
-
 img {
         vertical-align: top;
 }
-
 h1,
 h2,
 h3,
@@ -41,7 +37,9 @@ h6 {
         font-weight: inherit;
         font-size: inherit;
 }
-
+html{
+        scroll-behavior: smooth;
+}
 body {
         font-family: 'Raleway', sans-serif;
         height:100%;
@@ -49,4 +47,16 @@ body {
 .wrapper{
         min-height: 100%;
         overflow: hidden;
+}
+input:active,
+input:hover,
+input:focus {
+        outline: 0;
+        outline-offset: 0;
+}
+textarea:active,
+textarea:hover,
+textarea:focus {
+        outline: 0;
+        outline-offset: 0;
 }
