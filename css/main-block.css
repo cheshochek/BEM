@@ -6,8 +6,8 @@
 }
 .main-block__container {
     max-width: 1200px;
-    padding: 0 15px;
     margin: 0 auto;
+    padding: 0 15px;
     display: flex;
 }
 .main-block__body {
@@ -15,8 +15,7 @@
     margin: 0 30px 0 0;
 }
 .main-block__title {
-    width: 170px;
-    height: 55px;
+    width: calc(170 / 670 * 100%);
     margin: 0 0 73px;
 }
 .main-block__title img {
@@ -44,7 +43,7 @@
     font-size: 18px;
     line-height: 21px;
     color: #FFFFFF;
-    max-width: 270px;
+    width: 270px;
     margin: 0 0 42px 0;
 }
 .main-block__button {
@@ -89,7 +88,7 @@
     width: 100%;
     padding: 0 0 15px 0;
 }
-.main-block .form-item input {
+.main-block .form-item:not(:last-child) input {
     margin-bottom: 36px;
 }
 .form__button {
@@ -106,4 +105,95 @@
 }
 button:hover {
     cursor: pointer;
+}
+@media(max-width:1024px) {
+    .main-block {
+        padding: 212px 0 106px;
+    }
+    .main-block__container {
+        max-width: 912px;
+        margin: 0 5px 0 100px;
+    }
+    .main-block__body {
+        flex: 0 1 454px;
+        margin: 0 36px 0 0;
+    }
+    .main-block__title {
+        width: calc(115 / 454 * 100%);
+        margin: 0 0 54px;
+    }
+    .main-block__subtitle {
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .main-block__subtitle:after {
+        width: 115px;
+        margin: 42px 0 31px;
+    }
+    .main-block__text {
+        font-size: 14px;
+        line-height: 16px;
+        width: 183px;
+        margin: 0 0 31px;
+    }
+    .main-block__button {
+        padding: 10px 45px 11px 46px;
+    }
+    .main-block__form {
+        flex: 0 0 398px;
+    }
+    .form__title {
+        padding: 32px 0 77px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+}
+@media(max-width:788px) {
+    .main-block {
+        padding: 140px 0 50px;
+    }
+    .main-block__container {
+        max-width: 50%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .main-block__body {
+        flex: 0 0 100%;
+        margin: 0 0 56px;
+    }
+    .main-block__title {
+        display: none;
+    }
+    .main-block__subtitle:after {
+        width: 134px;
+        margin: 44px auto 42px;
+    }
+    .main-block__text {
+        width: 100%;
+        margin: 0 0 42px;
+    }
+    .main-block__button {
+        width: 100%;
+        padding: 10px 0 11px;
+    }
+    .main-block__form {
+        flex: 0 0 100%;
+    }
+    .form__container {
+        padding: 0 20px;
+    }
+    .form__title {
+        padding: 35px 0;
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .form__button {
+        margin: 54px 0 0;
+    }
+}
+@media(max-width:400px) {
+    .main-block__container {
+        max-width: 100%;
+    }
 }
