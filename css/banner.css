@@ -44,3 +44,9 @@
     color: #fff;
     border: 2px solid#AB4949;
 }
+@media(max-width:768px) {
+    .banner__button {
+        padding: 11px 98px 10px 97px;
+        margin: 50px 0 0 0;
+    }
+}
