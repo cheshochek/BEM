@@ -41,13 +41,13 @@
     height: 100%;
     width: 100%;
 }
-a img:nth-child(2) {
+.social-media a img:nth-child(2) {
     display: none;
 }
-a:hover img:nth-child(1) {
+.social-media a:hover img:nth-child(1) {
     display: none;
 }
-a:hover img:nth-child(2) {
+.social-media a:hover img:nth-child(2) {
     display: block;
 }
 .social-media__icons:hover>a:not(:hover) {

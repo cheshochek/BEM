@@ -35,3 +35,12 @@
 .banner__button:hover {
     cursor: pointer;
 }
+.banner__button:hover {
+    border: 2px solid #EC7979;
+    color: #EC7979;
+}
+.banner__button:active {
+    background-color: #AB4949;
+    color: #fff;
+    border: 2px solid#AB4949;
+}

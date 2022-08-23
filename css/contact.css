@@ -49,3 +49,11 @@
     color: #fff;
     padding: 17px 123px 16px 124px;
 }
+.contact__button:hover {
+    background-color: #AB4949;
+}
+
+.contact__button:active {
+    background-color: #EC7979;
+    box-shadow: inset 0px 0px 10px #AB4949;
+}
