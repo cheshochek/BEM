@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="fonts/iconstyle.css">
     <title>Axit</title>
 </head>
+
 <body>
     <div class="wrapper">
         <header class="header-block">
@@ -15,25 +17,26 @@
                 <a href="" class="header__logo">
                     <img src="img/logo.png" alt="">
                 </a>
-                <nav class="menu header__menu">
-                    <ul class="menu__list">
-                        <li class="menu__item">
-                            <a href="#Features" class="menu__link">Features</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#About" class="menu__link">About</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#Pricing" class="menu__link">Pricing</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#Reviews" class="menu__link">Reviews</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#Contact" class="menu__link">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
+                <div class="header__burger">
+                    <span></span>
+                </div>
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a href="#Features" class="menu__link">Features</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#About" class="menu__link">About</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#Pricing" class="menu__link">Pricing</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#Reviews" class="menu__link">Reviews</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#Contact" class="menu__link">Contact</a>
+                    </li>
+                </ul>
             </div>
         </header>
         <section class="main-block">
@@ -126,7 +129,9 @@
                     </div>
                     <button class="tabs-block__content-button"> Download</button>
                 </div>
-                <img class="tabs-block__image" src="img/background.png" alt="Image">
+                <div class="tabs-block__image">
+                    <img src="img/background.png" alt="Image">
+                </div>
             </div>
             <div id="content-2" class="tabs-block">
                 <div class="tabs-block__content">
@@ -143,7 +148,9 @@
                     </div>
                     <button class="tabs-block__content-button"> Download</button>
                 </div>
-                <img class="tabs-block__image" src="img/castle.jpeg" alt="Image">
+                <div class="tabs-block__image">
+                    <img src="img/castle.jpeg" alt="Image">
+                </div>
             </div>
             <div id="content-3" class="tabs-block">
                 <div class="tabs-block__content">
@@ -160,7 +167,9 @@
                     </div>
                     <button class="tabs-block__content-button"> Download</button>
                 </div>
-                <img class="tabs-block__image" src="img/Chicago.jpg" alt="Image">
+                <div class="tabs-block__image">
+                    <img src="img/Chicago.jpg" alt="Image">
+                </div>
             </div>
         </section>
         <section id="About" class="about">
@@ -172,8 +181,8 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </div>
             </div>
-            <div class="about__items">
-                <div class="about-item">
+            <div class="items about__items">
+                <div class="item">
                     <div class="about-item__icon">
                         <img src="img/icon_1.png">
                     </div>
@@ -185,7 +194,7 @@
                         elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.
                     </div>
                 </div>
-                <div class="about-item">
+                <div class="item">
                     <div class="about-item__icon ">
                         <img src="img/icon_2.png">
                     </div>
@@ -197,7 +206,7 @@
                         elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.
                     </div>
                 </div>
-                <div class="about-item">
+                <div class="item">
                     <div class="about-item__icon">
                         <img src="img/icon_3.png">
                     </div>
@@ -419,5 +428,8 @@
             </div>
         </footer>
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/javascript.js"></script>
 </body>
+
 </html>

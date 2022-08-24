@@ -55,3 +55,39 @@
     line-height: 21px;
     color: rgba(255, 255, 255, 0.5);
 }
+@media(max-width:1024px){
+        .footer {
+            padding: 35px 15px 30px;
+        }
+        .footer__container {
+            max-width: 998px;
+        }
+        .icons-item:not(:last-child) {
+            margin: 0 27px 0 0;
+        }
+        .icons-item a {
+            font-size: 45px;
+        }
+        .footer__copyright {
+            margin: 38px 0 0 0;
+            font-size: 14px;
+            line-height: 16px;
+        }
+}
+@media(max-width:600px) {
+    .footer {
+        padding: 35px 15px 45px;
+    }
+    .footer__container {
+        max-width: 570px;
+    }
+    .icons-item:not(:last-child) {
+        margin: 0 17px 0 0;
+    }
+    .icons-item a {
+        font-size: 27px;
+    }
+    .footer__copyright {
+        margin: 42px 0 0 0;
+    }
+}
