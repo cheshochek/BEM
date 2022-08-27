@@ -15,7 +15,7 @@
     margin: 0 30px 0 0;
 }
 .main-block__title {
-    width: calc(170 / 670 * 100%);
+    width: 170px;
     margin: 0 0 73px;
 }
 .main-block__title img {
@@ -127,15 +127,14 @@ button:hover {
         padding: 212px 0 106px;
     }
     .main-block__container {
-        max-width: 912px;
-        margin: 0 5px 0 100px;
+        margin: 0 auto 0 100px;
     }
     .main-block__body {
         flex: 0 1 454px;
         margin: 0 36px 0 0;
     }
     .main-block__title {
-        width: calc(115 / 454 * 100%);
+        width: 116px;
         margin: 0 0 54px;
     }
     .main-block__subtitle {
@@ -208,7 +207,7 @@ button:hover {
         margin: 54px 0 0;
     }
 }
-@media(max-width:400px) {
+@media(max-width:600px) {
     .main-block__container {
         max-width: 100%;
     }

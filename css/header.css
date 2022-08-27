@@ -79,16 +79,10 @@
     text-transform: capitalize;
     color: #FFFFFF;
 }
-@media(max-width:1024px) {
-    .header__container {
-        max-width: 919px;
-    }
-}
 @media(max-width:992px) {
     .header__container {
         margin: 0 auto;
     }
-
     .menu__item {
         width: 90px;
     }
@@ -98,8 +92,6 @@
         overflow: hidden;
     }
     .header__container {
-        max-width: 962px;
-        margin: 0 auto;
         height: 56px;
     }
     .header__burger {
