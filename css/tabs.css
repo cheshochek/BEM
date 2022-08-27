@@ -147,7 +147,7 @@
             width: 102px;
         }
         .tabs-block__content {
-            padding: 0 21px 0 25px;
+            padding: 0 21px;
             display: flex;
             flex-direction: column;
             align-items: center;
