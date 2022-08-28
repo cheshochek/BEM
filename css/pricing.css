@@ -1,11 +1,10 @@
 .pricing {
     background-color: #F5F5F5;
-    padding: 0 15px;
 }
 .pricing__container {
     max-width: 1170px;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 50px 15px;
     text-align: center;
 }
 .items {
@@ -89,7 +88,7 @@
 }
 @media(max-width:768px) {
     .pricing__container {
-        max-width: 50%;
+        width: 50%;
         padding: 0 0 26px;
     }
     .items-pricing {
@@ -127,6 +126,6 @@
 }
 @media(max-width:400px) {
     .pricing__container {
-        max-width: 100%;
+        width: 100%;
     }
 }

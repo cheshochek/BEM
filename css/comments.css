@@ -71,6 +71,7 @@ input[type="radio"] {
     line-height: 21px;
     color: #000000;
 }
+
 @media(max-width:1024px) {
     .comments {
         max-width: 1012px;
@@ -137,9 +138,9 @@ input[type="radio"] {
     }
 }
 
-@media(max-width:400px) {
+@media(max-width:600px) {
     .comments {
-        max-width: 420px;
+        max-width: 100%;
     }
 
     .comments .items {

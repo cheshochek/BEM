@@ -65,10 +65,6 @@
 }
 
 @media(max-width:1024px) {
-    .contact__container {
-        max-width: 992px;
-    }
-
     .contact .header-title {
         font-weight: 700;
         font-size: 24px;
@@ -92,9 +88,6 @@
     }
 }
 @media(max-width:600px) {
-    .contact__container {
-        max-width: 570px;
-    }
     .contact__form {
         margin: 64px 0 0;
     }

@@ -1,37 +1,42 @@
 .about {
     max-width: 1170px;
     margin: 0 auto;
-    padding: 50px 15px 58px;
+    padding: 0 15px 58px;
     text-align: center;
 }
+
 .header-title {
+    padding: 54px 0 0 0;
     font-size: 36px;
     line-height: 42px;
     text-transform: uppercase;
-    padding: 54px 0 53px;
 }
+
 .header-subtitle {
-    margin-top: 40px;
     font-size: 18px;
     line-height: 21px;
     color: #86878B;
 }
-.header-hr {
-    border: none;
-    color: #EC7979;
-    background-color: #EC7979;
+
+.header-title:after {
+    content: '';
+    display: block;
     height: 1px;
+    background: #EC7979;
     width: 170px;
-    margin: 0 auto;
+    margin: 53px auto 40px;
 }
+
 .about__items {
     margin-top: 71px;
 }
+
 .about-item__icon {
     display: inline-block;
     width: 170px;
     height: 170px;
 }
+
 .about-item__title {
     font-family: 'Open Sans', sans-serif;
     font-size: 24px;
@@ -39,72 +44,87 @@
     margin: 34px 0 42px;
     font-weight: 700;
 }
+
 .about-item__text {
     font-size: 18px;
     line-height: 21px;
     white-space: pre-line;
 }
+
 .about-item__text::first-line {
     line-height: 0;
 }
+
 @media (max-width:1024px) {
     .about {
         max-width: 994px;
-        padding: 50px 15px 60px;
+        padding: 0 15px 60px;
     }
+
     .about__items {
         margin-top: 32px;
     }
+
     .about-item__icon {
         display: inline-block;
         width: 147px;
         height: 147px;
     }
+
     .about-item__icon img {
         object-fit: cover;
         width: 100%;
         height: 100%;
     }
+
     .about-item__title {
         font-size: 18px;
         line-height: 25px;
         margin: 28px 0 37px;
     }
+
     .about-item__text {
         font-size: 14px;
         line-height: 16px;
     }
+
     .header-title {
         font-size: 24px;
         line-height: 28px;
-        padding: 46px 0 45px;
+        padding: 46px 0 0 0;
     }
+
     .header-subtitle {
-        margin-top: 32px;
         font-size: 14px;
         line-height: 16px;
     }
-    .header-hr {
+
+    .header-title:after {
+        margin: 45px auto 32px;
         width: 143px;
     }
 }
+
 @media (max-width:768px) {
     .about {
         width: 50%;
         padding: 0 15px 60px;
     }
+
     .about .items {
         flex-direction: column;
         margin-top: 50px;
     }
+
     .header-subtitle {
         margin-top: 24px;
     }
-    .header-hr {
+
+    .header-title:after {
         width: 134px;
     }
 }
-@media (max-width:400px) {
+@media(max-width:400px) {
     .about {
         width: 100%;
     }
